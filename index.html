@@ -4,23 +4,33 @@
    <meta charset="UTF-8">
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
    <title>Oh my food</title>
-   <link rel="stylesheet" type="text/css" href="assets\style.css">
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+      integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+      crossorigin="anonymous" referrerpolicy="no-referrer" />
+   <link rel="stylesheet" type="text/css" href="assets\css\style.css">
 </head>
 
 <body>
    <div class="main-container">
       <header>
-         <img id="logo" src="assets/images/logo/ohmyfood.png" alt="logo du site">
-            <div>
-               <i class="fa-solid fa-location-dot"></i>
-               <p>Paris, Belleville </p>
+         <div class="logo-location">
+            <img id="logo" src="assets/images/logo/ohmyfood.png" alt="logo du site">
+               <div class="location-icon">
+                  <i class="fa-solid fa-location-dot"></i>
+                  <p>Paris, Belleville</p>
+               </div>
             </div>
-         <h1>Réservez le menu qui vous convient</h1>
-         <p>Découvrez des restaurants d'exception, sélectionnés par nos soins</p>
-         <button class="btn-menu">Explorez les menus</button>
       </header>
 
       <main>
+         <section>
+            <h1>Réservez le menu qui vous convient</h1>
+         <p class="subtitle-principal">Découvrez des restaurants d'exception, sélectionnés par nos soins</p>
+         <button class="btn-menu">Explorez nos restaurants</button>
+         </section>
          <section>
          <h2 class="section-title">Fonctionnement</h1>
          <div class="info-text-icons">
@@ -48,6 +58,7 @@
                         <div class="card-content">
                            <h3 class="card-title">La palette du goût</h3>
                            <p class="card-subtitle">Ménilmontant</p>
+                              <i class="fa-light fa-heart"></i>
                         </div>
                   </article>
                </a>
@@ -57,6 +68,7 @@
                         <div class="card-content">
                            <h3 class="card-title">La note enchantée</h3>
                            <p class="card-subtitle">Charonne</p>
+                              <i class="fa-light fa-heart"></i>
                         </div>
                   </article>
                </a>
@@ -66,6 +78,7 @@
                         <div class="card-content">
                            <h3 class="card-title">A la française</h3>
                            <p class="card-subtitle">Cité Rouge</p>
+                              <i class="fa-light fa-heart"></i>
                         </div>
                   </article>
                </a>
@@ -75,12 +88,22 @@
                         <div class="card-content">
                            <h3 class="card-title">Le délice des sens</h3>
                            <p class="card-subtitle">Folie-Méricourt</p>
+                              <i class="fa-light fa-heart"></i>
                         </div>
                   </article>
                </a>
          </section>
-
       </main>
+      
+      <footer>
+         <ul>
+            <li><h4>Proposer un restaurant</h4></li>
+            <li><a href="#">Devenir partenaire</a></li>
+            <li><a href="#">Mentions légales</a></li>
+            <li><a href="#mailto">Contact</a></li>
+            </li>
+         </ul>
+      </footer>
    </div>
 </body>
 </html>
