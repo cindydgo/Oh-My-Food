@@ -151,8 +151,25 @@ footer {
     height: 186px;
 }
 
+.logo-footer {
+    font-family: 'Shrikhand', sans-serif;
+    font-size: 18px;
+    color: #FFFF;
+    padding-bottom: 15px;
+}
+
+footer ul {
+    padding-top: 20px;
+    padding-left: 25px;
+}
+
 footer ul li a{
     color: #FFFF;
+    line-height: 26px;
+}
+
+.footer-link {
+    font-weight: 500;
 }
 
 @media (min-width: 767.98px) and (max-width: 1024px) {
