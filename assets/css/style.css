@@ -144,6 +144,16 @@ h1 {
     right: 10%;
 }
 
+/****Pied de page****/
+
+footer {
+    background: #353535;
+    height: 186px;
+}
+
+footer ul li a{
+    color: #FFFF;
+}
 
 @media (min-width: 767.98px) and (max-width: 1024px) {
 }
