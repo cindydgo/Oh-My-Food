@@ -19,7 +19,6 @@ body {
 .main-container {
     width: 100%;
     max-width: 1440px;
-    padding: 0 10px;
     box-sizing: border-box;
 }
 
@@ -47,25 +46,28 @@ a {
 ul li {
     list-style-type: none;
 }
-
 /******Header******/
 #logo {
-    width: 162px;
+    width: 45%;
+    min-width: 162px;
     height: 44px;
-    display: flex;
-    justify-content: center;
+    margin-inline: auto;
+    margin-top: 15px;
+    margin-bottom: 15px;
 }
 
 .logo-location {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    width: 100%;
 }
 
 .location-icon {
     display: flex;
     align-items: center;
     justify-content: center;
+    background: #EAEAEA;
 }
 
 .fa-location-dot {
@@ -82,15 +84,38 @@ h1 {
     margin-bottom: 0;
 }
 
+.section-title {
+    font-size: 24px;
+    font-weight: 700;
+}
+
+/****Menu*****/
+.menu {
+    width: 100%;
+    height: 310px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    box-sizing: border-box;
+    background: #F6F6F6;
+}
+
+.title-btn {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 .subtitle-principal {
     font-size: 18px;
     font-weight: 300;
     text-align: center;
+    margin-top: 20px;
+    margin-bottom: 40px;
 }
 
-.section-title {
-    font-size: 24px;
-    font-weight: 700;
+button .btn-menu {
+    display: flex;
+    justify-content: center;
 }
 
 .btn-menu {
@@ -104,7 +129,50 @@ h1 {
     color: #FFFF;
 } 
 
+/*****Fonctionnement****/
+#fontionnement {
+    width: 100%;
+}
+
+#fonctionnement p {
+    font-weight: 500;
+}
+
+.info-text-icons {
+    display: flex;
+    align-items: center;
+    background: #f7f7f7;
+    /*box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.15);*/
+    filter: drop-shadow(0px 4px 15px rgba(0, 0, 0, 0.15));
+    border-radius: 20px;
+    margin-bottom: 20px;
+    height: 72.38px;
+    width: 90%;
+    gap: 20px;
+}
+
+.menu-number {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 1.5rem; /*24px*/
+    height: 1.5rem;
+    font-size: 14.18px;
+    color: #FFFF;
+    border-radius: 50%;
+    background: var(--primary-color);
+}
+
+.fa-store {
+    color: var(--primary-color);
+}
+
 /*****Restaurants*****/
+
+#restaurants {
+    margin-bottom: 70px;
+}
+
 .restaurants-card {
     display: flex;
     flex-direction: column;
@@ -138,10 +206,16 @@ h1 {
     margin-top: 0;
 }
 
-.fa-heart {
+.fa-heart::before {
+    content: "\f004";
     position: absolute;
     bottom: 15%;
     right: 10%;
+}
+
+.fa-sharp .fa-light .fa-heart {
+    width: 25px;
+    height: 25px;
 }
 
 /****Pied de page****/
@@ -154,6 +228,7 @@ footer {
 .logo-footer {
     font-family: 'Shrikhand', sans-serif;
     font-size: 18px;
+    font-style: italic;
     color: #FFFF;
     padding-bottom: 15px;
 }
