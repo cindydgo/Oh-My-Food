@@ -308,5 +308,16 @@ footer ul li a{
     font-weight: 500;
 }
 
+.fa-utensils ,.fa-handshake-angle {
+    color: #FFFF;
+    width: 11px;
+    height: 13px;
+    margin-right: 15px;
+}
+
+.fa-handshake-angle {
+    transform: rotate(-15deg);
+}
+
 @media (min-width: 767.98px) and (max-width: 1024px) {
 }
