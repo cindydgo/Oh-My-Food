@@ -364,10 +364,18 @@ h1 {
 
 /***** Restaurants *****/
 #restaurants {
-    padding: 30px 180px 0;
+    padding-top: 30px;
     height: 668px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
+#restaurants-cards .section-title {
+    position: relative;
+    left: -380px;
+}
 .restaurants-cards {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -378,6 +386,7 @@ h1 {
 }
 
 .restaurants-cards .card {
+    min-width: 400px;
     margin-top: 0;
 }
 
@@ -399,7 +408,8 @@ footer ul li {
 }
 
 .footer-link {
-    left: 219px;
+    /*position: relative;
+    left: 219px;*/
 }
 
 .logo-footer {
