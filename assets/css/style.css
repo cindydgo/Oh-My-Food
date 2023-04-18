@@ -4,8 +4,6 @@
 }
 
 :root {
-    --main-bg-color: #;
-    ---bg-color: #;
     --primary-color: #9356DC;
     --secondary-color: #FF79DA;
     --third-color:#99E2D0;
@@ -267,7 +265,7 @@ h1 {
     display: flex;
     justify-content: center;
     align-items: center;
-    background: #99E2D0;
+    background: var(--third-color);
     color: #008766;
     border-radius: 2px;
     box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.15);
@@ -332,8 +330,9 @@ h1 {
 }
 
 .restaurant-background-radius {
-    height: 1307px;
+    height: 1121px;
     width: 100%;
+    max-width: 1100px;
     padding-inline: 13px;
     box-sizing: border-box;
     background: #F6F6F6;
@@ -349,7 +348,7 @@ h1 {
 }
 
 .box-title {
-    border-bottom: 3px solid #99E2D0;
+    border-bottom: 3px solid var(--third-color);
     padding-bottom: 5px;
     width: 40px;
 }
@@ -397,6 +396,7 @@ h1 {
 footer {
     background: #353535;
     height: 186px;
+    width: 100%;
 }
 
 .logo-footer {
@@ -429,6 +429,13 @@ footer ul li a{
 
 .fa-handshake-angle {
     transform: rotate(-15deg);
+}
+
+/***** Footer page restaurants *****/
+.footer-restaurant-page {
+    position: absolute;
+    bottom: -800px;
+    left: 0;
 }
 
 @media (min-width: 1024px) {
