@@ -48,10 +48,6 @@ ul li {
 }
 
 /****** Header ******/
-header {
-    height: 63px;
-}
-
 #logo {
     width: 162px;
     height: 44px;
@@ -64,7 +60,9 @@ header {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.15);
     width: 100%;
+    height: 63px;
 }
 
 .location-icon {
@@ -111,6 +109,8 @@ h1 {
     display: flex;
     align-items: center;
     position: relative;
+    height: 63px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.15);
 }
 
 .left-arrow {
@@ -163,6 +163,14 @@ h1 {
 .btn-gradient:hover {
     background: linear-gradient(0deg, rgba(255, 255, 255, 0.15), rgba(255, 255, 255, 0.15)), linear-gradient(200.64deg, #9356DC -5.2%, #FF79DA 110.74%);
     box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.35);
+}
+
+/**** Menu pages des restaurants*****/
+.restaurant-image img {
+    max-width: 1400px;
+    width: 100%;
+    height: 275px;
+    object-fit: cover;
 }
 
 /*****Fonctionnement****/
