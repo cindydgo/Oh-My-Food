@@ -404,11 +404,13 @@ input::placeholder {
     transition: all 0.2s 90ms ease-in-out;
 }
 
-.heart-full:hover {
+.heart-full:hover,
+.heart-full:active {
     opacity: 1;
 }
 
-heart:hover {
+.heart:hover,
+.heart:active {
     opacity: 0;
 }
 
@@ -470,11 +472,13 @@ heart:hover {
 .card-plate-price h3 {
     font-size: 18px;
     margin: 0;
+    text-overflow: ellipsis;
 }
 
 .card-content-2 {
     display: flex;
     justify-content: space-between;
+    text-overflow: ellipsis;
 }
 
 .card-subtitle-2 {
