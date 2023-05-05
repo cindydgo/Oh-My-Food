@@ -193,6 +193,7 @@ to {
     height: 16px;
     position: absolute;
     left: 23px;
+    bottom: 23px;
 }
 
 /****** Localisation ******/
@@ -383,7 +384,7 @@ input::placeholder {
     top: 0;
     right: 3.5%;
 }
-    
+
 .heart {
     background: url('heart_empty.svg') no-repeat;
     background-size: contain;
