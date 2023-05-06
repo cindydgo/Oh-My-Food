@@ -130,7 +130,7 @@ to {
     left: 50%;
     z-index: 2;
     transform: translate(-50%, -50%);
-    background: url(coffee.png) repeat-x;
+    background: url(../images/coffee.png) repeat-x;
     background-position: 0 140px;
     box-shadow: 0 0 0 7px white, 0 20px 30px rgb(50, 15, 84, .8);
     animation: fill 2.5s ease -1s infinite;
@@ -188,7 +188,7 @@ to {
 
 /***** Header pages des restaurants *****/
 .left-arrow {
-    background: url("left-arrow.png");
+    background: url("../images/left-arrow.png");
     width: 17.2px;
     height: 16px;
     position: absolute;
@@ -386,7 +386,7 @@ input::placeholder {
 }
 
 .heart {
-    background: url('heart_empty.svg') no-repeat;
+    background: url('../images/heart_empty.svg') no-repeat;
     background-size: contain;
     position: absolute;
     bottom: 10%;
@@ -396,7 +396,7 @@ input::placeholder {
 }
 
 .heart-full {
-    background: url('heart_full.svg') no-repeat;
+    background: url('../images/heart_full.svg') no-repeat;
     background-size: contain;
     opacity: 0;
     position: absolute;
