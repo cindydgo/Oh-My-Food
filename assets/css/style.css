@@ -70,8 +70,8 @@ ul li {
     z-index: 1;
     position: fixed;
     background: var(--primary-color);
-    animation: fade-out 3s linear 3s both;
     -webkit-animation: fade-out 3s linear 3s both;
+    animation: fade-out 3s linear 3s both;
 }
 
 @keyframes fade-out {
@@ -106,8 +106,8 @@ to {
     width: 20px;
     height: 20px;
     display: flex;
-    animation: spin 2s linear infinite;
     -webkit-animation: spin 2s linear infinite;
+    animation: spin 2s linear infinite;
 }
 
 @keyframes spin {
@@ -133,8 +133,8 @@ to {
     background: url(../images/coffee.png) repeat-x;
     background-position: 0 140px;
     box-shadow: 0 0 0 7px white, 0 20px 30px rgb(50, 15, 84, .8);
-    animation: fill 2.5s ease -1s infinite;
     -webkit-animation: fill 2.5s ease -1s infinite;
+    animation: fill 2.5s ease -1s infinite;
 }
 
 @keyframes fill {
